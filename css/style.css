@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0; 
+    
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: pink;
+    
+  }
+  .div-título {
+      font-variant: inherit;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: rgb(247, 122, 143);
+    color: black
+}
+  .div-text {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    align-items: center;
+    background-image: url(../assets/folhas.jpg);
+    color: black
+}
+.div-criadora{
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    align-items: center;
+    color: black 
+}
+
+
+  .section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-section-one{
+    background-image: url(../assets/XPEED_logo-black-friday.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .background-section-two{
+    background-image: url(../assets/folhas.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .img{
+    width: 50%;
+    height: 70%;
+    align-items: center;
+
+    padding-left: 25%;
+
+}
+
+
+.text{
+    size: 100px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color: blanchedalmond;
+}
+  
+  
+.card-container{
+    background: rgb(245,75,103);
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+  }
+  
+  input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: #000;
+    color: #fff
+  }
+  
+  form{
+    display: grid;
+  }
+  
+  footer{
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    background-image: url(../assets/folhas.jpg);
+    color:black ;
+  }
